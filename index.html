@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width" />
+	    <meta name="keywords" content="要健康，上724" />
+	    <meta name="description" content="健康中国，从自我保健开始，您的健康，从724开始">
+	    <title>健康724-首页</title>
+	</head>
+	<body>
+		<%= require('./header.tpl')  %>
+		<div class="jk-content width100">
+			<div class="width1920">
+				<div class="banner swiper-container">
+  					<div class="swiper-wrapper">
+					    <div class="swiper-slide"><img src="<%=require('./assets/imgs/h-banner2.jpg')%>" /></div>
+					    <div class="swiper-slide"><img src="<%= require('./assets/imgs/h-banner.jpg')%>" /></div>
+				  	</div>
+				  	<div id="bannerpagination" class="pagination"></div>
+				  	<div class="absolute">
+					  	<div class="relative" style=" width: 1365px; top: 50%;">
+				            <div class="arrow-right"></div>
+				            <div class="arrow-left"></div>
+			            </div>
+		            </div>
+				</div>
+				<div class="jk-video clearfix">
+					<div class="video fl">
+						<div class="player"></div>
+					</div>
+					<!--<img src="<%= require('./assets/imgs/h-viedo.jpg')%>" class="fl"/>-->
+					<div class="fr jk-video-info">
+						<h2>你的健康从自我保健开始</h2>
+						<p>如今，大多数人沉浸于创造物质财富，却失去了健康这一重要的生命财富。如何让自己和家人拥有健康？
+	</p>
+						<a class="border-color555 player">点击播放</a>
+					</div>
+				</div>
+				<div class="about-us">
+					<img src="<%= require('./assets/imgs/about.png')%>" />
+					<h1>公司简介</h1>
+					<img src="<%= require('./assets/imgs/more-icon.png')%>" class="img-margin"/>
+					<p>
+						健康724是一个基于用户、健康管理师、健康产品及服务提供商构建的综合性健康服务平台
+					</p>
+					<p>致力于为数百万关注自我及家庭健康的用户提供全球健康品直供</p>
+					<P>以及定制化的健康解决方案。</P>
+					
+					<div class="about-border"></div>
+				</div>
+				<div class="jk-origin clearfix">
+					<div class="jk-origin-info">
+						<div class="fl">
+							<h1 class="font-gentury">Origin of JK724</h1>
+							<h2>健康724的起源</h2>
+							<p class="border">2011年，健康724创始人</p>
+							<p>时任世界自我药疗产业协会（WSMI）的首位华人主席郭振宇博士发起了“ 每周7天，每天24小时，时时刻刻关注自我保健 ” 活动。
+		将每年7月24日定为“国际自我保健日（ISD）”，并在全球开展活动。</p>
+						</div>
+						<div class="fr">
+							<img src="<%= require('./assets/imgs/jk-g.jpg')%>" />
+						</div>
+					</div>
+				</div>
+				<div class="jk-news">
+					<h1 class="font-gentury">NEWS</h1>
+					<h2>新闻中心</h2>
+					<div class="jk-news-info">
+						<div class="clearfix">
+							<img src="<%= require('./assets/imgs/news-img.jpg')%>" class="fl"/>
+							<p class="fl clearfix">
+								<img src="<%= require('./assets/imgs/lft-icon.png')%>" class="fl" />
+								<span class="fl">7.24国际自我保健日不仅获得全球众多健康企业和组织机构的支持，和国际巨星成龙、
+奥运冠军田亮等公益明星的响应，也得到了美国、加拿大和中国政府的认可。</span></p>
+						</div>
+						<p class="border">
+							<img src="<%= require('./assets/imgs/lft-icon.png')%>" class="fl" />
+							<span>让人们获得更健康的生活方式，国际自我保健日创始人郭振宇博士创立了健康724。</span>
+						</p>
+					</div>
+				</div>
+				<div class="jk-vision">
+					<img src="<%= require('./assets/imgs/vision-bg.png')%>" class="vision-img"/>
+					<div class="vision-info">
+						<img src="<%= require('./assets/imgs/vision-img.jpg')%>" class="fl"/>
+						<div class="fr vision-info-mission">
+							<p class="font-gentury">Mission&Vision of JK724</p>
+							<h1 class="font32">健康724使命&愿景 <img src="<%= require('./assets/imgs/more-icon.png')%>" /></h1>
+							<p>健康是人生的第一财富，让人们过得健康快乐是健康724的使命，也是健康724创立的初衷。
+我们希望，以优质的健康产品，专业的健康服务，科学的保健知识让我国人民过上健康快乐的生活。</p>
+							<div class="border">做全球自我保健领导者</div>
+							<p>致力于打造“顶级产品+专业服务+保健知识”完整的健康生态系统为大家提供科学合理的全方位健康解决方案。</p>
+						</div>
+					</div>
+				</div>
+				<div class="jk-values">
+					<div class="jk-values-info">
+						<h1>健康724 价值观</h1>
+						<h2 class="font-gentury mt10">values of JK724</h2>
+						<div class="border"></div>
+						<div class="border-top"></div>
+					</div>
+					<div class="values-tab display-block">
+						<div class="display-items values-items">
+							<img src="<%= require('./assets/imgs/icon1.png')%>" />
+							<span>身体力行</span>
+						</div>
+						<div class="display-items values-items">
+							<img src="<%= require('./assets/imgs/icon2.png')%>" />
+							<span>客户第一</span>
+						</div>
+						<div class="display-items values-items">
+							<img src="<%= require('./assets/imgs/icon3.png')%>" />
+							<span>拥抱变化</span>
+						</div>
+						<div class="display-items values-items">
+							<img src="<%= require('./assets/imgs/icon4.png')%>" />
+							<span>积极自律</span>
+						</div>
+						<div class="display-items values-items">
+							<img src="<%= require('./assets/imgs/icon5.png')%>" />
+							<span>成就他人</span>
+						</div>
+						<div class="display-items values-items">
+							<img src="<%= require('./assets/imgs/icon6.png')%>" />
+							<span>实现卓越</span>
+						</div>
+					</div>
+				</div>
+				<div class="jk-business">
+					<div class="jk-business-info">
+						<h1>健康724 商业模式</h1>
+						<h2 class="font-gentury mt10 mb10">Business model  of  JK724</h2>
+						<div class="border"></div>
+						<div class="border-top"></div>
+						<div class="business-title">打造以自我保健为核心的新零售通路</div>
+						<div class="business-tab display-block">
+							<div class="display-items">
+								<img src="<%= require('./assets/imgs/feedback-icon.png')%>" />
+								<h2>交易平台</h2>
+								<div></div>
+								<p>提供卓越产品</p>
+							</div>
+							<div class="display-items">
+								<img src="<%= require('./assets/imgs/drafts-icon.jpg')%>" />
+								<h2>知识传播平台</h2>
+								<div></div>
+								<p>传递健康思想&理念</p>
+							</div>
+							<div class="display-items">
+								<img src="<%= require('./assets/imgs/update-icon.png')%>" />
+								<h2>健康管理平台</h2>
+								<div></div>
+								<p>打造健康生活方式</p>
+							</div>
+							<div class="display-items">
+								<img src="<%= require('./assets/imgs/complete-icon.png')%>" />
+								<h2>健康孵化平台</h2>
+								<div></div>
+								<p>孵化优质将品牌&团队</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jk-business jk-genuine">
+					<div class="jk-business-info">
+						<h1>100%正品保障  7天无理由退货</h1>
+						<h2 class="font-gentury mt10 mb10">100% genuine guaranteed, and return<br>of products without reasons within 7 days</h2>
+						<div class="border"></div>
+						<div class="border-top"></div>
+						<div class="business-title">品牌授权书和采购凭证</div>
+						<div class="genuine-img">
+							<img src="<%= require('./assets/imgs/genuine.jpg')%>" />
+						</div>
+					</div>
+				</div>
+				<div class="jk-vision jk-welfare">
+					<img src="<%= require('./assets/imgs/welfare-bg.jpg')%>" class="vision-img"/>
+					<div class="vision-info welfare-info relative">
+						<h1>大爱无形  回馈社会</h1>
+						<div class="font-gentury">Public welfare</div>
+						<img src="<%= require('./assets/imgs/isf.png')%>" class="mt50"/>
+						<div class="border-bottom"></div>
+						<div class="welfare-border">健康724郑重承诺</div>
+						<img src="<%= require('./assets/imgs/more-icon.png')%>" />
+						<p class="mt10">每卖出一笔订单，都将为国际自我保健基金会捐款1元</p>
+						<p>用于开展自我保健科普讲座、捐献书籍、运动器械，关爱人民健康。</p>
+					</div>
+				</div>
+				<div class="public-welfare">
+					<div class="public-welfare-info clearfix">
+						<div class="fl">
+							<h1 class="font-gentury">public welfare undertaking</h1>
+							<h2>企业影响  公益扩散</h2>
+							<img src="<%= require('./assets/imgs/more-icon.png')%>" />
+							<div class="clearfix">
+								<div class="public-list fl">
+									<div class="public-item">
+										<p><strong>2011</strong>年</p>
+										<p>发起倡议，中国区启动仪式在北京举行转载信息量超过1000万条，总转播覆盖影响人次达到7100万</p>
+									</div>
+									<div class="public-item">
+										<p><strong>2012</strong>年</p>
+										<p>724自我保健日传播全球启动，覆盖欧、美、亚、非12个国家与地区超过1254万人次主动关注，覆盖量超过18860万人次</p>
+									</div>
+									<div class="public-item">
+										<p><strong>2013</strong>年</p>
+										<p>中、英、越、南非等地区开展不同形式的724自我保健活动总传播覆盖量达2.2亿人次，4687万人次主动关注</p>
+									</div>
+									<div class="public-item">
+										<p><strong>2014</strong>年</p>
+										<p>724自我保健日成为美国国会认定纪念日成龙、田亮等明星及机构加入，影响2.27亿人次</p>
+									</div>
+									<div class="public-item">
+										<p><strong>2015</strong>年</p>
+										<p>开展《中国自我保健白皮书》项目超过60家企业、10余政府部门及行业组织参与</p>
+									</div>
+									<div class="public-item">
+										<p><strong>2016</strong>年</p>
+										<p>7.24国际自我保健日获得中国政府认可由全民参与发展至政府推动加拿大总理贾斯廷·特鲁多和卫生部部长简·菲尔伯特发来贺电</p>
+									</div>
+									<div class="public-item">
+										<p><strong>2017</strong>年</p>
+										<p>7.24国际自我保健日获得中国政府认可由全民参与发展至政府推动</p>
+									</div>
+									<div class="public-item">
+										<p><strong>后续</strong></p>
+										<p>郭振宇博士上书李克强总理继续推动中国政府向联合国提交7月24日作为国际自我保健日的提案</p>
+									</div>
+								</div>
+								<img src="<%= require('./assets/imgs/img-rgt.jpg')%>" class="fr"/>
+							</div>
+						</div>
+						<div class="fr">
+							<img src="<%= require('./assets/imgs/welfare-rgt.jpg')%>" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%= require('./footer.tpl')  %>
+	</body>
+</html>
